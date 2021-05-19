@@ -71,7 +71,7 @@ def plot_labels(labels, save_dir=Path(''), loggers=None):
             ax[a].spines[s].set_visible(False)
 
     plt.savefig(save_dir / 'labels.jpg', dpi=200)
-    matplotlib.use('Agg')
+    plt.use('Agg')
     plt.close()
 
     # loggers

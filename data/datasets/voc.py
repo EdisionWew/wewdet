@@ -11,7 +11,7 @@ if sys.version_info[0] == 2:
 else:
     import xml.etree.ElementTree as ET
 
-from boundbox.bndbox.boxlist import BoxList
+from core.boxops.bndbox import BoxList
 from utils.utils import resize_eq_ratio
 import numpy as np
 

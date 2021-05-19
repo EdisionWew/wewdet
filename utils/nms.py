@@ -1,5 +1,7 @@
 import os
+import time
 import torch
+import torchvision
 
 def non_max_suppression(prediction, conf_thres=0.25, iou_thres=0.45, classes=None, agnostic=False, labels=()):
     """Performs Non-Maximum Suppression (NMS) on inference results
