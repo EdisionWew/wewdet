@@ -1,7 +1,10 @@
-# DetectionLib
+# wewdet
 
 this is built for general detection.
 
 # Todo
-- [ ] yolovs
+- [ ] yolov5
+- [ ] SSD
+- [ ] retinaNet
+- [ ] centernet
 - [ ] anchor free
